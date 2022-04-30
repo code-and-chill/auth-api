@@ -3,6 +3,8 @@ module github.com/code-and-chill/auth-api
 go 1.18
 
 require (
+	github.com/dgrijalva/jwt-go v3.2.0+incompatible
+	github.com/golang/mock v1.6.0
 	github.com/jmoiron/sqlx v1.3.1
 	github.com/pkg/errors v0.9.1
 	github.com/sirupsen/logrus v1.4.2
@@ -24,9 +26,9 @@ require (
 	go.elastic.co/apm v1.15.0 // indirect
 	go.elastic.co/fastjson v1.1.0 // indirect
 	golang.org/x/lint v0.0.0-20201208152925-83fdc39ff7b5 // indirect
-	golang.org/x/mod v0.3.0 // indirect
-	golang.org/x/sys v0.0.0-20200223170610-d5e6a3e2c0ae // indirect
-	golang.org/x/tools v0.0.0-20200509030707-2212a7e161a5 // indirect
-	golang.org/x/xerrors v0.0.0-20191204190536-9bdfabe68543 // indirect
+	golang.org/x/mod v0.4.2 // indirect
+	golang.org/x/sys v0.0.0-20210510120138-977fb7262007 // indirect
+	golang.org/x/tools v0.1.1 // indirect
+	golang.org/x/xerrors v0.0.0-20200804184101-5ec99f83aff1 // indirect
 	howett.net/plist v0.0.0-20181124034731-591f970eefbb // indirect
 )
